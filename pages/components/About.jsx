@@ -21,7 +21,7 @@ export default function About() {
     setLinkData({...res3.data.data});
     //console.log(res3.data.data);
     }else{
-      console.log(res3.data.data.originalMessage)
+      console.log(res3.data)
     }
   }
   const loadLink = async()=>{
