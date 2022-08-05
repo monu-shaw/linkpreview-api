@@ -21,7 +21,7 @@ export default function About() {
     setLinkData({...res3.data.data});
     //console.log(res3.data.data);
     }else{
-      alert(res3.data.data.originalMessage)
+      console.log(res3.data.data.originalMessage)
     }
   }
   const loadLink = async()=>{
@@ -40,7 +40,7 @@ export default function About() {
     }
   }
   useEffect(()=>{
-    linkPreview('https://imbw.ga');
+    linkPreview('https://linkpreview-alpha.vercel.app');
   },[])
   return (
     <div className='bg-aliceblue py-2'>
