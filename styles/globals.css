@@ -6,11 +6,57 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+
+.top-page{
+  background-color: antiquewhite;
+  color: rgb(69, 39, 3);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.top-text{
+
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.top-text > h1{
+  font-weight: bolder;
+}
+.bg-aliceblue{
+  background-color: aliceblue !important;
+}
+.mycard{
+  width: 18rem;
+}
+.card-hea{
+  background-color: rgb(236, 223, 223);
 }
 
-* {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.nunito{
+  font-family: 'Nunito', sans-serif;
+}
+.bg-cust-primary{
+  background-color: #797EF6;
+}
+.text-cust-light{
+  color: #1E2F97;
+}
+.bg-cust-secondary{
+  background-color: #1AA7EC;
+}
+.btn-cust-primary{
+  background-color: #797EF6;
+  color: #eaeaea;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.bg-cust-light{
+  background-color: azure;
 }
