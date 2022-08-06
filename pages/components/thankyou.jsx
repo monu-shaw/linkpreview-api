@@ -2,7 +2,7 @@ import monu from '../../public/monu.jpg'
 export function Thankyou2(){
   return (
         <ul>
-          <li>Simple Node Package Developed By Myself To easy the Process. <a href="https://www.npmjs.com/package/monu-linkpreview" target="_blank">Monu-linkprevier</a></li>
+          <li>Simple Node Package Developed By Myself To easy the Process. <a href="https://www.npmjs.com/package/monu-linkpreview" target="_blank">Monu-linkpreview</a></li>
           <li>Client Site as well as Some Server Site Work. <a href="https://nextjs.org/" target="_blank">Next Js</a></li>
           <li>Lot's of Bootstrap Classes. <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
         </ul>
