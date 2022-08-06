@@ -5,7 +5,9 @@ import Error from './error';
 import Loader from './loader';
 import Style1 from './style1'
 import Style2 from './style2'
-import { Thankyou, Thankyou2, Thankyou3 } from './thankyou';
+import Thankyou from './thankyou';
+import Thankyou2 from './Thankyou2';
+import Thankyou3 from './Thankyou3';
 
 
 export default function About() {

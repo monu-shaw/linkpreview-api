@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function Error({errorData}) {
+function Error(props) {
+  const [errorData, setErrorData] = useState({...props.errorData})
   return (
     <div className='text-danger text-center'>
         <p className='fs-6'>Error: <span className='fst-italic'>{' '+errorData.code}</span></p>
