@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Link Preview Api</title>
-        <meta name="description" content="Link Preview Api" />
+        <title>Link Preview</title>
+        <meta name="description" content="A Simple Link Preview Build By Monu" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Heading/>

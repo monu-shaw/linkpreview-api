@@ -12,7 +12,7 @@ export default function Heading() {
       <nav className="navbar navbar-dark bg-cust-primary">
         <div className="container-fluid">
         <Link href="/" >
-          <a className="navbar-brand text-decoration-none text-light">LinkPreview</a>
+          <a className="navbar-brand text-decoration-none text-dark">LinkPreview</a>
         </Link>
         </div>
       </nav>

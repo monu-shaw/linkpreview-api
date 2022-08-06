@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #12141D !important;
 }
 
 
@@ -25,7 +24,8 @@ body {
   font-weight: bolder;
 }
 .bg-aliceblue{
-  background-color: aliceblue !important;
+  background-color: #12141D !important;
+  color: #FFFFFF;
 }
 .mycard{
   width: 18rem;
@@ -35,28 +35,103 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 .nunito{
   font-family: 'Nunito', sans-serif;
 }
 .bg-cust-primary{
-  background-color: #797EF6;
+  background-color: #00FF00;
 }
 .text-cust-light{
-  color: #1E2F97;
+  color: #FFFFFF;
 }
 .bg-cust-secondary{
   background-color: #1AA7EC;
 }
+.btn-cust-primary-default{
+  background-color: #00FF00;
+  color: #1C1E2A;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 2px solid #1C1E2A;
+}
 .btn-cust-primary{
-  background-color: #797EF6;
-  color: #eaeaea;
+  background-color: #FFFFFF;
+  color: #1C1E2A;
   text-align: center;
   padding-top: 3px;
   padding-bottom: 3px;
   text-decoration: none;
   font-weight: 500;
 }
+.btn-cust-primary-2{
+  background-color: #12141D;
+  color: #00FF00;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 2px solid #00FF00;
+}
+.btn-cust-primary-2:hover{
+  background-color: #00FF00;
+  color: #12141D;
+  border: 2px solid #12141D;
+}
+.btn-cust-primary:hover{
+  background-color: #00FF00;
+  color: #00FF00;
+  border: 2px solid #12141D;
+  animation: fadeIn2 2s;
+}
+.btn-cust-primary-default:hover{
+  background-color: #12141D;;
+  color: #00FF00;
+  border: 2px solid #00FF00;
+  animation: fadeIn2 2s;
+}
+
 .bg-cust-light{
   background-color: azure;
+}
+li{
+  font-family: 'Barlow', sans-serif;
+}
+.yanone{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+@keyframes fadeIn {
+  0% { background-color: #12141D;
+    color: #000; }
+  100% {  
+    background-color: #00FF00;
+    color: #12141D; 
+  }
+}
+@keyframes fadeIn2 {
+  0% { background-color: #12141D;
+    color: #00FF00; }
+  100% {  
+    background-color: #12141D;;
+    color: #00FF00;
+    border: 2px solid #00FF00; 
+  }
+}
+li>a:hover{
+  color: #00FF00;
+}
+li>a{
+  text-decoration: none;
+}
+.bg-cust-dark{
+  background-color: #1C1E2A;
+  color: #FFFFFF;
 }
