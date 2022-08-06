@@ -1,10 +1,10 @@
-import monu from '../../public/monu.jpg'
+import React from "react";
 export function Thankyou2(){
   return (
         <ul>
           <li>Simple Node Package Developed By Myself To easy the Process. <a href="https://www.npmjs.com/package/monu-linkpreview" target="_blank" rel="noreferrer">Monu-linkpreview</a></li>
           <li>Client Site as well as Some Server Site Work. <a href="https://nextjs.org/" target="_blank" rel="noreferrer">Next Js</a></li>
-          <li>Lot's of Bootstrap Classes. <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">Bootstrap</a></li>
+          <li>Lots of Bootstrap Classes. <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">Bootstrap</a></li>
         </ul>
   )
 }
@@ -32,7 +32,7 @@ export function Thankyou3(){
         <div className='d-flex justify-content-between align-item-center col-12'>
           <p className='fw-bold fs-6'>8 <br /> Projects</p>
           <p className='fw-bold fs-6'>1 <br /> NPM Packeges</p>
-          <p className='fw-bold '>20 <br /> Github Repos</p>
+          <p className='fw-bold'>20 <br /> Github Repos</p>
         </div>
         <div className='d-flex justify-content-between'>
         <a href="https://github.com/monu-shaw" target="_blank" rel="noreferrer"className="btn-cust-primary-2 w-100 d-block rounded-0">View Github</a>
