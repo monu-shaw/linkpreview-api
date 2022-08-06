@@ -1,8 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 function Style2(props) {
-    const [linkData, setLinkData] = useState({...props.linkData});
+  const [linkData, setLinkData] = useState({
+    "img": "",
+     "title": "",
+     "description": "",
+     "domain": "",
+     "origin": ""
+ });
+ useEffect(()=>{
+   setLinkData({...props.linkData});
+ },[])
   return (
    
     <div className='my-3'>
@@ -15,7 +24,7 @@ function Style2(props) {
                 <div className='col-8 col-md-8 col-lg-9 border-start ps-2'>
                     <div className="card-body">
                       <h6 className="text-capitalize">{linkData.title}</h6>
-                      <p className="">{linkData.description}</p>
+                      <p className="">{linkData.description === ''?linkData.description: linkData.description.substring(0, 60)+` ..`}</p>
                       <a href={linkData.origin} className="btn-cust-primary bg-cust-secondary px-2 rounded-1">Go Now</a>
                     </div>
                 </div>
