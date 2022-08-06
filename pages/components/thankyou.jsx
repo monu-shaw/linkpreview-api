@@ -2,9 +2,9 @@ import monu from '../../public/monu.jpg'
 export function Thankyou2(){
   return (
         <ul>
-          <li>Simple Node Package Developed By Myself To easy the Process. <a href="https://www.npmjs.com/package/monu-linkpreview" target="_blank">Monu-linkpreview</a></li>
-          <li>Client Site as well as Some Server Site Work. <a href="https://nextjs.org/" target="_blank">Next Js</a></li>
-          <li>Lot's of Bootstrap Classes. <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+          <li>Simple Node Package Developed By Myself To easy the Process. <a href="https://www.npmjs.com/package/monu-linkpreview" target="_blank" rel="noreferrer">Monu-linkpreview</a></li>
+          <li>Client Site as well as Some Server Site Work. <a href="https://nextjs.org/" target="_blank" rel="noreferrer">Next Js</a></li>
+          <li>Lot's of Bootstrap Classes. <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">Bootstrap</a></li>
         </ul>
   )
 }
@@ -13,9 +13,9 @@ export function Thankyou(){
   return (
     
         <ul>
-          <li>Next Js Crash Course <a href="https://courses.learncodeonline.in/learn/NextJS-Full-stack-crash-course" target="_blank">Hitesh Chowdhary(LCO)</a></li>
-          <li>Web Scraping with Axios &#x26; Cherio <a href="https://dev.to/drsimplegraffiti/i-scraped-dev-to-using-axios-and-cheerio-26ko" target="_blank">Abayomi Ogunnusi(Dev.to)</a></li>
-          <li>Logic for getting individual elements for link preview <a href="https://andrejgajdos.com/how-to-create-a-link-preview" target="_blank">Andrej Gajdos(andrejgajdos.com)</a></li>
+          <li>Next Js Crash Course <a href="https://courses.learncodeonline.in/learn/NextJS-Full-stack-crash-course" target="_blank" rel="noreferrer">Hitesh Chowdhary(LCO)</a></li>
+          <li>Web Scraping with Axios &#x26; Cherio <a href="https://dev.to/drsimplegraffiti/i-scraped-dev-to-using-axios-and-cheerio-26ko" target="_blank" rel="noreferrer">Abayomi Ogunnusi(Dev.to)</a></li>
+          <li>Logic for getting individual elements for link preview <a href="https://andrejgajdos.com/how-to-create-a-link-preview" target="_blank" rel="noreferrer">Andrej Gajdos(andrejgajdos.com)</a></li>
         </ul>
   )
 }
@@ -35,7 +35,7 @@ export function Thankyou3(){
           <p className='fw-bold '>20 <br /> Github Repos</p>
         </div>
         <div className='d-flex justify-content-between'>
-        <a href="https://github.com/monu-shaw" target='_blank' className="btn-cust-primary-2 w-100 d-block rounded-0">View Github</a>
+        <a href="https://github.com/monu-shaw" target="_blank" rel="noreferrer"className="btn-cust-primary-2 w-100 d-block rounded-0">View Github</a>
         </div>
       </div>
 
