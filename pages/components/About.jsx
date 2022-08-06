@@ -6,6 +6,7 @@ import Style1 from './style1'
 import Style2 from './style2'
 
 export default function About() {
+  const [myloading, setMyLoading] = useState(true)
   const [linkData, setLinkData] = useState({
     "img": "",
     "title": "",
@@ -14,14 +15,17 @@ export default function About() {
     "origin": ""
   })
   const linkPreview = async(url)=>{
-    const res3 = await axios.post('https://linkpreview-alpha.vercel.app/api/link',{
+    setMyLoading(false);
+    const res3 = await axios.post('http://localhost:3000/api/link',{
       url: url
     });
     if(res3.data.status === 1){
     setLinkData({...res3.data.data});
-    //console.log(res3.data.data);
+    setMyLoading(true);
+    //console.log(res3.data);
     }else{
       console.log(res3.data)
+      setMyLoading(true);
     }
   }
   const loadLink = async()=>{
@@ -55,7 +59,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      {!linkData.title != '' && <Loader/>}
+      {!myloading && <Loader/>}
       {linkData.title != '' && <Style1 linkData={linkData}/>}
       {linkData.title != '' && <Style2 linkData={linkData}/>}
     </div> 
