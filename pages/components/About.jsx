@@ -16,7 +16,7 @@ export default function About() {
   })
   const linkPreview = async(url)=>{
     setMyLoading(false);
-    const res3 = await axios.post('http://localhost:3000/api/link',{
+    const res3 = await axios.post('https://linkpreview-alpha.vercel.app//api/link',{
       url: url
     });
     if(res3.data.status === 1){
