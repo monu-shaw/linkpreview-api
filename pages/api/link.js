@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     //res.status(200).json({ name:  })
     if(req.method  === 'POST'){
         try {
-             await getLinkPreview(req.body.url).then(re=>res.json({status: 1,data: re})).catch((er)=>res.json({status: 0,data: er}));      
+             await getLinkPreview(req.body.url).then(re=>res.json({status: 1,data: re}))//.catch((er)=>res.json({status: 0,data: er}));      
             //res.json({"data": req.body.id})
         } catch (error) {
             res.send(`error ${error}`)
