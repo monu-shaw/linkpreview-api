@@ -24,7 +24,7 @@ function Style2(props) {
                 <div className='col-8 col-md-8 col-lg-9 border-start ps-2'>
                     <div className="card-body">
                       <h6 className="text-capitalize">{linkData.title}</h6>
-                      <p className="">{linkData.description === ''?linkData.description: linkData.description.substring(0, 60)+` ..`}</p>
+                      <p className="">{linkData.description === ''?linkData.description: linkData.description === null?'':linkData.description.substring(0, 60)+` ..`}</p>
                       <a href={linkData.origin} className="btn-cust-primary bg-cust-secondary px-2 rounded-1">Go Now</a>
                     </div>
                 </div>

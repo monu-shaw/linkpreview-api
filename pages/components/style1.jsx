@@ -20,7 +20,7 @@ function Style1(props) {
           <img src={linkData.img} className="card-img-top" alt="..." style={{width: '100%', height: '14rem'}}/>
           <div className="card-body p-0 pb-1 border-top">
             <h6 className="text-capitalize ps-2 mt-2">{linkData.title}</h6>
-            <p className="ps-2">{linkData.description === ''?linkData.description: linkData.description.substring(0, 60)+` ..`}</p>
+            <p className="ps-2">{linkData.description === ''?linkData.description: linkData.description === null?'':linkData.description.substring(0, 60)+` ..`}</p>
             <a href={linkData.origin} className="m-2 btn-cust-primary bg-cust-secondary px-2 rounded-1">Go Now</a>
           </div>
         </div>

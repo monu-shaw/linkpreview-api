@@ -51,7 +51,7 @@ export default function About() {
       if(JSON.stringify(res3.data.data) === '{}'){
         setErrorDetail({
           code: 'CheckUrl',
-          message: 'Please Check Url Is Correct'
+          message: 'Please Check Url Is Correct or Website Blocking Request'
         })  
       }else{
         setErrorDetail({...res3.data.data});
