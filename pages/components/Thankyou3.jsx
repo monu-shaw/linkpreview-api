@@ -8,7 +8,7 @@ function Thankyou3() {
       </div>
       <div className='col-12 col-lg-9 py-1'>
         <h2 className='nunito fs-bold'>Monu Kr. Shaw</h2>
-        <h6 className=''>@FullStackWebDeveloper</h6>
+        <h6 className=''><a href="https://github.com/monu-shaw" target="_blank" rel="noreferrer" className='cust-hover'>@FullStackWebDeveloper</a>, <a href="https://github.com/monu-shaw" target="_blank" rel="noreferrer" className='cust-hover'>@MERNStackDeveloper</a></h6>
         <p className='my-4'>FullStack Web Developer, Love Only Bug resolving And Code Amazing Stuffs</p>
         <div className='d-flex justify-content-between align-item-center col-12'>
           <p className='fw-bold fs-6'>8 <br /> Projects</p>

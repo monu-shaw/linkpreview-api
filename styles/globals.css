@@ -135,3 +135,6 @@ li>a{
   background-color: #1C1E2A;
   color: #FFFFFF;
 }
+.cust-hover:hover{
+  color: #00FF00;
+}

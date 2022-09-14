@@ -95,15 +95,15 @@ export default function About() {
       {linkData.title != '' && <Style1 linkData={linkData}/>}
       {linkData.title != '' && <Style2 linkData={linkData}/>}
       <div className='text-cust-light col-11 mx-auto border-top pt-1 m-0 mt-3' onClick={()=>setThankYou(!thankyou)}>
-        <h5 className='yanone ps-2'>Thank You <span style={{transform: thankyou?'':'rotate(270deg)'}} className='dropdown-toggle float-end pe-2'></span></h5>
-          {thankyou && <Thankyou />}
+        <h5 className='yanone ps-2'>Thank You <span style={{transform: thankyou?'':'rotate(-90deg)', transition: 'all 1s'}} className='dropdown-toggle float-end pe-2'></span></h5>
+          {thankyou && <Thankyou  status={thankyou}/>}
       </div>
       <div className='text-cust-light col-11 mx-auto border-top pt-1 m-0' onClick={()=>setThankYou2(!thankyou2)}>
-        <h5 className='yanone ps-2'>Library Used <span style={{transform: thankyou2?'':'rotate(270deg)'}} className='dropdown-toggle float-end pe-2'></span></h5>
+        <h5 className='yanone ps-2'>Library Used <span style={{transform: thankyou2?'':'rotate(-90deg)', transition: 'all 1s'}} className='dropdown-toggle float-end pe-2'></span></h5>
         {thankyou2 && <Thankyou2 />}
       </div>
       <div className='text-cust-light col-11 mx-auto border-top border-bottom pt-1 m-0' onClick={()=>setThankYou3(!thankyou3)}>
-        <h5 className='yanone ps-2'>About Me <span style={{transform: thankyou3?'':'rotate(270deg)'}} className='dropdown-toggle float-end pe-2'></span></h5>
+        <h5 className='yanone ps-2'>About Me <span style={{transform: thankyou3?'':'rotate(-90deg)', transition: 'all 1s'}} className='dropdown-toggle float-end pe-2'></span></h5>
         {thankyou3 && <Thankyou3 />}
       </div>
     </div> 
